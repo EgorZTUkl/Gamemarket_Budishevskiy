@@ -1,0 +1,6 @@
+body {
+    background: linear-gradient(to bottom, #000000, #8FF8F8);
+    /* Додаткові стилі для елементу */
+    width: 500px;
+    height: 1080px;
+}
