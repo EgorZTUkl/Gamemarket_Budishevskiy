@@ -1,9 +1,16 @@
 body {
-  background-color: #ffffff; /* Світла тема */
-  color: #000000;
+  margin: 0; /* Убираем отступы по умолчанию */
+  padding: 0; /* Убираем внутренние отступы по умолчанию */
 }
 
-.dark-theme body {
-  background-color: #000000; /* Темна тема */
-  color: #ffffff;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container img {
+  max-width: 20%;
+  max-height: 20%;
 }
