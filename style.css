@@ -1,5 +1,5 @@
 body {
-  background: black
+  background-color: black
   margin: 0; /* Убираем отступы по умолчанию */
   padding: 0; /* Убираем внутренние отступы по умолчанию */
 }
