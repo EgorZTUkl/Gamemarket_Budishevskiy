@@ -1,0 +1,13 @@
+body{
+  background: rgba(100, 100, 2, 0.5);
+  display: flex;
+  height: 100vh;
+  gap: 100px;
+      flex-direction: row-reverse;
+      align-items: stretch;
+      justify-content: flex-end;
+      font-size: 100px;
+
+      div{border: 2px solid red};
+
+}
