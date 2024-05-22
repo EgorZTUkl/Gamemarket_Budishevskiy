@@ -42,18 +42,24 @@ title {
   letter-spacing: 3px;
 }
 
+.item-image {
+  height: 200px;
+}
+
 .items{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 450px;
 
 }
 
 .item {
-  width: 200px;
-  height: 400px;
+  min-width: 200px;
+  min-height: 500px;
   margin-bottom: 10px;
   padding: 10px;
+  width: 200px;
 
   background-color: #ffffff;
 
@@ -80,38 +86,38 @@ title {
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
+  
 }
 
 .parts-pay img{
   height: 24px;
+  
 }
 
-.price{
-  border: 1px solid rgb(194, 194, 194);
-  border-radius: 5px;
-  padding: 5px 10px;
-  display: flex;
-}
 
-.price div:first-child {
-  width: 100px;
+.price {
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 10px;
   font-size: 20px;
+  width: 230px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.price div:first-child span{
-  text-decoration-line:line-through ;
+.price div :first-child {
+  width: 200px;
+  font-size: 16px;
+  text-decoration-line : line-through ;
 }
 
-.price div:first-child sup{
-  font-size: 12px;
+.price div :first-child span{
+  text-decoration-line : line-through ;
 }
 
-.price div:last-child{
-  font-size: 24px;
-}
-
-.price div:last-child sup{
-  font-size: 14px;
+.price sup{
+  font-size: 10px;
 }
 
 .bonus{
@@ -120,6 +126,7 @@ title {
   border-radius: 5px;
   display: flex;
   align-items: center;
+  
 }
 
 .bonus div:first-child{
